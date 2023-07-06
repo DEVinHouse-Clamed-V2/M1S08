@@ -6,14 +6,6 @@ const receitas = JSON.parse(dados)
 exibirReceita()
 
 function exibirReceita(){
-  receitas.map(receita => {
-    const receitaTitle = document.createElement('h1')
-    receitaTitle.innerText = receita.nome
-    
-    receitaCard.appendChild(receitaTitle)
-  })
-  const receitaTitle = document.createElement('h1')
-  receitaTitle.innerText = receitas[pagina].nome
   const receitaElement = document.createElement('div')
 
   receitaElement.innerHTML = `
