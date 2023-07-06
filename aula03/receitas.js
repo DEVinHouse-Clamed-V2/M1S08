@@ -1,4 +1,4 @@
-const receitas = `{
+const receitas = `
   [
     {
       "nome": "Bolo de Chocolate",
@@ -148,4 +148,4 @@ const receitas = `{
       "imagem": "https://i.pinimg.com/736x/80/a2/d7/80a2d7f35540344174821881cae33de3--blueberry-pancake-recipes-blueberry-pancakes.jpg"
     }
   ]
-}`
+`
