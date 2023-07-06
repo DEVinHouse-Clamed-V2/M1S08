@@ -11,6 +11,7 @@ function exibirReceita(){
   imagem.setAttribute('src', receitas[pagina].imagem)
 
   const listaIngredientes = document.getElementById("listaIngredientes")
+  listaIngredientes.innerHTML = ""
   
   receitas[pagina].ingredientes.map((item) => {
     const li = document.createElement("li")
@@ -19,6 +20,7 @@ function exibirReceita(){
   })
 
   const listaInstrucoes = document.getElementById("listaInstrucoes")
+  listaInstrucoes.innerHTML = ""
 
   receitas[pagina].instrucoes.map((item) => {
     const li = document.createElement("li")
